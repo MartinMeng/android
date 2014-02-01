@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick the book you want" />
+    	<CheckBox
+    	    android:text = "Android reference book"
+    	    android:id = "@+id/checkBox1"
+    	    android:layout_width = "wrap_content"
+    	    android:layout_height = "wrap_content" />
+    	<CheckBox
+    	    android:text = "SQL reference book"
+    	    android:id = "@+id/checkBox2"
+    	    android:layout_width = "wrap_content"
+    	    android:layout_height = "wrap_content" />
+    	<CheckBox
+    	    android:text = "Another android reference book"
+    	    android:id = "@+id/checkBox3"
+    	    android:layout_width = "wrap_content"
+    	    android:layout_height = "wrap_content" />
+    	<CheckBox
+    	    android:text = "Another SQL reference book"
+    	    android:id = "@+id/checkBox4"
+    	    android:layout_width = "wrap_content"
+    	    android:layout_height = "wrap_content" />
+    	<Button
+    	    android:text = "Confirm"
+    	    android:id = "@+id/bt"
+    	    android:layout_width = "wrap_content"
+    	    android:layout_height = "wrap_content" />
+		<TextView 
+		    android:layout_width = "fill_parent"
+		    android:layout_height = "fill_parent"
+		    android:id = "@+id/tv" />
+
+</LinearLayout>

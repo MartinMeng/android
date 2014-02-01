@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:orientation = "vertical"
+    android:layout_width = "fill_parent"
+    android:layout_height = "fill_parent"
+    >
+    <TextView 
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:text = "The title"
+        android:textSize = "20px"
+    	/>
+    <TextView
+        android:layout_width= "fill_parent"
+        android:layout_height = "50px"
+        android:textSize = "40px"
+        android:gravity = "right"
+        android:background = "#000000"
+        />
+    <RelativeLayout
+        android:orientation = "horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button 
+            android:id = "@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding = "20px"
+            android:textSize = "20px"
+            android:text = "1"
+            />
+        <Button
+            android:id = "@+id/num2"
+            android:layout_width="wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_toRightOf = "@id/num1"
+            android:padding="20px"
+            android:textSize="20px"
+            android:text = "2"
+            />
+        <Button 
+            android:id = "@+id/num3"
+            android:layout_width="wrap_content"
+			android:layout_height = "wrap_content"
+            android:layout_toRightOf = "@id/num2"
+            android:padding="20px"
+            android:textSize="20px"
+            android:text = "3"
+            />
+        <Button
+            android:id = "@+id/back"
+            android:layout_width="wrap_content"
+			android:layout_height = "wrap_content"
+            android:layout_toRightOf = "@id/num3"
+            android:padding="20px"
+            android:textSize="20px"
+            android:text = "BACK"
+            />
+        <Button
+            android:id = "@+id/add"
+            android:layout_width="fill_parent"
+			android:layout_height = "wrap_content"
+            android:layout_toRightOf = "@id/back"
+            android:padding="20px"
+            android:textSize="20px"
+            android:text = "+"
+            />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:orientation = "vertical"
+    android:layout_width = "fill_parent"
+    android:layout_height = "fill_parent"
+    >
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:text = "This is a textView example"
+    android:textSize="20px" />
+<Button 
+    android:id = "@+id/ArrayAdapter"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:text = "ArrayAdapter" />
+<Button
+    android:id="@+id/SimpleAdapter"
+    android:layout_width="fill_parent"
+    android:layout_height = "fill_parent"
+    android:text = "SimpleAdapter" />
+<Button
+    android:id="@+id/SimpleCursorAdapter"
+    android:layout_width="fill_parent"
+    android:layout_height = "fill_parent"
+    android:text = "SimpleCursorAdapter" />
+</LinearLayout>
